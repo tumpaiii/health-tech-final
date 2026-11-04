@@ -1,0 +1,4 @@
+"use client";
+import React from "react";
+const markup = "<section class=\"section speakers\" id=\"speakers\"><div class=\"wrap\"><div class=\"section-head reveal\"><div><div class=\"eyebrow\">05 / PEOPLE &amp; PERSPECTIVES</div><h2 class=\"section-title\">Meet the voices<br/>shaping healthcare.</h2></div><div><p style=\"margin-bottom:22px\">Join the conversations moving healthcare forward.</p><div class=\"speaker-controls\"><button aria-label=\"Previous speakers\" class=\"round-btn\" id=\"speaker-prev\">←</button><button aria-label=\"Next speakers\" class=\"round-btn\" id=\"speaker-next\">→</button></div></div></div></div><div class=\"speaker-track\" id=\"speaker-track\"></div></section>";
+export default function Speakers(){return <div className="section-host" dangerouslySetInnerHTML={{__html:markup}}/>;}

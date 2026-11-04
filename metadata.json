@@ -1,0 +1,8 @@
+{
+  "name": "VITALINK | HealthTech Founders Meetup",
+  "description": "The community for founders, clinicians, and innovators building what's next in healthcare.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

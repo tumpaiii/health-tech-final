@@ -1,0 +1,1 @@
+Speaker names, roles, and locations are fictional demonstration content. The supplied photographs are illustrative and are not verified images of the named people. Replace these profiles with verified speaker information before publication.

@@ -1,0 +1,1 @@
+import * as React from "react";import {cn} from "@/lib/utils";interface Props extends React.HTMLAttributes<HTMLDivElement>{className?:string};export default function Card({className,...props}:Props){return <div className={cn("rounded-xl",className)} {...props}/>;}

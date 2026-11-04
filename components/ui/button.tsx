@@ -1,0 +1,1 @@
+import * as React from "react";import {cn} from "@/lib/utils";interface Props extends React.ButtonHTMLAttributes<HTMLButtonElement>{className?:string};export default function Button({className,...props}:Props){return <button className={cn("rounded-full px-5 py-3",className)} {...props}/>;}

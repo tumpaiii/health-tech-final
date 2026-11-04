@@ -1,0 +1,6 @@
+"use client";
+import {localizeMarkup} from "@/lib/local-media";
+
+import React from "react";
+const markup = "<section class=\"section about\" id=\"about\"><div class=\"wrap\"><div class=\"about-lead reveal\"><h2>A place for the people who believe healthcare can be <em>better</em> — and are building what comes next.</h2><img alt=\"People in discussion\" src=\"https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=700\"/></div><div class=\"about-main\"><img alt=\"Professionals collaborating\" id=\"about-photo\" src=\"https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1600\"/></div><div class=\"about-note\"><div class=\"reveal\"><b>01 / OUR PURPOSE</b><h3>Shared mission.</h3><p>Explore the challenges and possibilities that matter in healthcare.</p></div><div class=\"reveal\"><b>02 / OUR PEOPLE</b><h3>Fresh perspectives.</h3><p>Bring founders, clinicians and builders into the same conversation.</p></div><div class=\"reveal\"><b>03 / OUR COMMUNITY</b><h3>Meaningful connections.</h3><p>Make room for new ideas and valuable relationships.</p></div></div></div></section>";
+export default function About(){return <div className="section-host" dangerouslySetInnerHTML={{__html:localizeMarkup(markup)}}/>;}
